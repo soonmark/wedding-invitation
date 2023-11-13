@@ -986,7 +986,7 @@ form label {
 }
 
 #fh5co-testimonial,
-#fh5co-services,
+#fh5co-account,
 #fh5co-started,
 #fh5co-footer,
 #fh5co-event,
@@ -999,7 +999,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
-  #fh5co-services,
+  #fh5co-account,
   #fh5co-started,
   #fh5co-footer,
   #fh5co-event,
