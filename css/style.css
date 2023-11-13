@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0 0 10px 1%;
   list-style: none;
-  min-height: 400px;
+  min-height: 160px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -669,7 +669,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-gallery-list li a {
-  min-height: 400px;
+  min-height: 160px;
   padding: 2em;
   position: relative;
   width: 100%;
@@ -727,16 +727,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-gallery-list li.one-third {
   width: 32.3%;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-gallery-list li.one-third {
-    width: 49%;
-  }
-}
-@media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
-    width: 100%;
-  }
 }
 
 #map {
