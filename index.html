@@ -198,6 +198,17 @@
     </div>
 </div>
 
+<div class="container">
+    <section class="section" id="section-3">
+        <h1>오시는 길</h1>
+        <div id="map" style="width: 70%; height: 300px; margin:auto"></div>
+        <code id="snippet" class="snippet"></code>
+    </section>
+</div>
+
+<!-- 각자 발급받은 Client ID 값 넣기 -->
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zz6yh4hq5l"></script>
+
 <footer id="fh5co-footer" role="contentinfo">
     <div class="container">
     </div>
@@ -249,6 +260,66 @@
         day: weddingDay.getDate(),
         enableUtc: false
     });
+</script>
+
+<script id="code">
+    var elluce = new naver.maps.LatLng(37.513255, 127.98714909796672)
+    var map = new naver.maps.Map('map', {
+        center: new naver.maps.LatLng(37.513255, 127.98714909796672),
+        zoom: 17,
+        minZoom: 8, //지도의 최소 줌 레벨
+        zoomControl: true, //줌 컨트롤의 표시 여부
+        zoomControlOptions: { //줌 컨트롤의 옵션
+            position: naver.maps.Position.TOP_RIGHT
+        }
+    });
+    var marker = new naver.maps.Marker({
+        icon: {
+            path: [
+                new naver.maps.Point(0, 70), new naver.maps.Point(20, 100), new naver.maps.Point(40, 70),
+                new naver.maps.Point(30, 70), new naver.maps.Point(70, 0), new naver.maps.Point(10, 70)
+            ],
+            anchor: new naver.maps.Point(23, 103),
+            fillColor: '#F14E95',
+            fillOpacity: 1,
+            strokeColor: '#FFFFFF',
+            strokeStyle: 'solid',
+            strokeWeight: 3
+        },
+        position: elluce,
+        map: map
+    });
+
+    var contentString = [
+        '<div class="iw_inner" style="padding:5px; margin: 5px 0px 5px 0px; width: 150px; height: 45px; text-align: center; ">',
+        '   <p style="foint-size: 2rem; margin: 0;">컨벤션 헤리츠</p>',
+        '   <p style="font-size: 0.8rem; margin: 0;">서울 강남구 논현로 662</p>',
+        '</div>'
+    ].join('');
+
+    var infowindow = new naver.maps.InfoWindow({
+        content: contentString,
+        maxWidth: 200,
+        height: 50,
+        backgroundColor: "white",
+        borderColor: "black",
+        borderWidth: 2,
+        disableAnchor: true,
+        textAlign: "center",
+        margin: "auto",
+
+        pixelOffset: new naver.maps.Point(0, -5)
+    });
+
+    naver.maps.Event.addListener(marker, "click", function (e) {
+        if (infowindow.getMap()) {
+            infowindow.close();
+        } else {
+            infowindow.open(map, marker);
+        }
+    });
+
+    infowindow.open(map, marker);
 </script>
 
 </body>

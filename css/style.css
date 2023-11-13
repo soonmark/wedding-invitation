@@ -5,13 +5,18 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'NanumNeuRisNeuRisCe';
+  src: url("../fonts/NanumNeuRisNeuRisCe.ttf") format("NanumNeuRisNeuRisCe");
+}
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'NanumNeuRisNeuRisCe', "Work Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
