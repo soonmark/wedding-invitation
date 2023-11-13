@@ -670,7 +670,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li {
-    margin-left: 1px;
+    margin-left: 2px;
   }
 }
 #fh5co-gallery-list li a {
