@@ -207,7 +207,7 @@
 </div>
 
 <!-- 각자 발급받은 Client ID 값 넣기 -->
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zz6yh4hq5l"></script>
+<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zz6yh4hq5l"></script>
 
 <footer id="fh5co-footer" role="contentinfo">
     <div class="container">
@@ -263,9 +263,9 @@
 </script>
 
 <script id="code">
-    var elluce = new naver.maps.LatLng(37.513275, 127.031436)
+    var venueLocation = new naver.maps.LatLng(37.513275, 127.031436)
     var map = new naver.maps.Map('map', {
-        center: new naver.maps.LatLng(37.513275, 127.031436),
+        center: venueLocation,
         zoom: 17,
         minZoom: 8, //지도의 최소 줌 레벨
         zoomControl: true, //줌 컨트롤의 표시 여부
@@ -286,7 +286,7 @@
             strokeStyle: 'solid',
             strokeWeight: 3
         },
-        position: elluce,
+        position: venueLocation,
         map: map
     });
 

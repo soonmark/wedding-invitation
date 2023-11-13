@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'NanumNeuRisNeuRisCe';
-  src: url("../fonts/NanumNeuRisNeuRisCe.ttf") format("NanumNeuRisNeuRisCe");
+  src: url("../fonts/NanumNeuRisNeuRisCe.ttf") format("truetype");
 }
 /* =======================================================
 *
@@ -69,7 +69,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'NanumNeuRisNeuRisCe', "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
