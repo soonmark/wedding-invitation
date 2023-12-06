@@ -1018,14 +1018,9 @@ form label {
 }
 
 .couple-wrap {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   position: relative;
-}
-@media screen and (max-width: 768px) {
-  .couple-wrap {
-    width: 100%;
-  }
 }
 
 .heart {
