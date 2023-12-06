@@ -837,7 +837,7 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 100px;
+  font-size: 80px;
   line-height: 1.5;
   font-family: "Sacramento", Arial, serif;
 }
@@ -858,9 +858,16 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .display-tc h2,
+  #fh5co-counter .display-tc h2,
+  .fh5co-cover .display-tc h2 {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
