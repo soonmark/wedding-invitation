@@ -1061,7 +1061,7 @@ form label {
 .couple-half h3 {
   font-family: 'MaruBuri', "Sacramento", Arial, serif;
   color: #F14E95;
-  font-size: 30px;
+  font-size: 18px;
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
@@ -1180,7 +1180,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .fh5co-heading p {
