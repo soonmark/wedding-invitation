@@ -973,7 +973,7 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 50px;
+  height: 52px;
   width: 55px;
 }
 
@@ -985,7 +985,7 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 18px;
+  font-size: 14px;
   /* amounts */
 }
 
@@ -1828,3 +1828,65 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+.row.account {
+  text-align: left;
+  position: relative;
+  float:left;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  /*border: 1px solid #0b0b0b;*/
+  justify-content: space-between;
+  padding-inline-start: 0px;
+}
+
+.account_header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 100%;
+}
+.account_owner {
+  width: 80px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-right: 8px;
+}
+.account_box {
+  width: 145px;
+  border-left: 1px solid #0b0b0b;
+}
+.bride_account {
+  margin-top: 30px;
+}
+.account_no_copy {
+  padding: 5px;
+  /*background: #FAE8B0;*/
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  font-size: 10px;
+  display: flex;
+  width: 45px;
+}
+.account_header.account_no_copy {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.smaller_h6 {
+  font-size: 10px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.account_no_copy_li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
