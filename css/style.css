@@ -22,7 +22,7 @@
 body {
   font-family: 'MaruBuri', "Work Sans", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.7;
   color: #828282;
   background: #fff;
@@ -862,7 +862,7 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -870,14 +870,14 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -1171,7 +1171,7 @@ form label {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
@@ -1180,11 +1180,11 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 13px;
   line-height: 1.5;
   color: #828282;
 }
