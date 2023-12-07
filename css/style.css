@@ -10,13 +10,17 @@
   font-family: 'NanumNeuRisNeuRisCe';
   src: url("../fonts/NanumNeuRisNeuRisCe.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: 'MaruBuri';
+}
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: 'NanumNeuRisNeuRisCe', "Work Sans", Arial, sans-serif;
+  font-family: 'MaruBuri', "Work Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -69,7 +73,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: 'NanumNeuRisNeuRisCe', "Work Sans", Arial, sans-serif;
+  font-family: 'MaruBuri', "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -1055,7 +1059,7 @@ form label {
 }
 
 .couple-half h3 {
-  font-family: 'NanumNeuRisNeuRisCe', "Sacramento", Arial, serif;
+  font-family: 'MaruBuri', "Sacramento", Arial, serif;
   color: #F14E95;
   font-size: 30px;
 }
@@ -1172,7 +1176,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #F14E95;
-  font-family: 'NanumNeuRisNeuRisCe', "Sacramento", Arial, serif;
+  font-family: 'MaruBuri', "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
