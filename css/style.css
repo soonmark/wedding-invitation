@@ -948,7 +948,7 @@ form label {
   display: inline-block;
   width: 55px;
   height: 55px;
-  background: rgba(241, 78, 149, 0.8);
+  background: rgba(186, 232, 176, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1064,48 +1064,41 @@ form label {
   font-size: 18px;
 }
 .couple-half .groom, .couple-half .bride {
-  float: left;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+.couple-half .groom, .couple-half .bride {
+  width: 100%;
+  height: 140px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 480px) {
-  .couple-half .groom, .couple-half .bride {
-    width: 100%;
-    height: 140px;
-  }
-  .couple-half .groom img, .couple-half .bride img {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-  }
-}
 .couple-half .groom {
-  float: right;
   margin-right: 5px;
 }
 .couple-half .bride {
-  float: left;
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-right: 180px;
-  text-align: right;
+  text-align: center;
 }
 .couple-half .desc-bride {
-  padding-left: 180px;
-  text-align: left;
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
@@ -1175,7 +1168,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: #BAE8B0;
   font-family: 'MaruBuri', "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
