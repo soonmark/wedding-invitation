@@ -10,15 +10,19 @@
   font-family: 'NanumNeuRisNeuRisCe';
   src: url("../fonts/NanumNeuRisNeuRisCe.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: 'MaruBuri';
+}
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: 'NanumNeuRisNeuRisCe', "Work Sans", Arial, sans-serif;
+  font-family: 'MaruBuri', "Work Sans", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.7;
   color: #828282;
   background: #fff;
@@ -69,7 +73,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: 'NanumNeuRisNeuRisCe', "Work Sans", Arial, sans-serif;
+  font-family: 'MaruBuri', "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -858,7 +862,7 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -866,14 +870,14 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -942,9 +946,9 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 65px;
-  height: 65px;
-  background: rgba(241, 78, 149, 0.8);
+  width: 55px;
+  height: 55px;
+  background: rgba(186, 232, 176, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -969,8 +973,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 50px;
-  width: 65px;
+  height: 52px;
+  width: 55px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -981,14 +985,14 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 25px;
+  font-size: 14px;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 9px;
   /* words */
 }
 
@@ -1055,53 +1059,46 @@ form label {
 }
 
 .couple-half h3 {
-  font-family: 'NanumNeuRisNeuRisCe', "Sacramento", Arial, serif;
+  font-family: 'MaruBuri', "Sacramento", Arial, serif;
   color: #F14E95;
-  font-size: 30px;
+  font-size: 18px;
 }
 .couple-half .groom, .couple-half .bride {
-  float: left;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+.couple-half .groom, .couple-half .bride {
+  width: 100%;
+  height: 140px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 480px) {
-  .couple-half .groom, .couple-half .bride {
-    width: 100%;
-    height: 140px;
-  }
-  .couple-half .groom img, .couple-half .bride img {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-  }
-}
 .couple-half .groom {
-  float: right;
   margin-right: 5px;
 }
 .couple-half .bride {
-  float: left;
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-right: 180px;
-  text-align: right;
+  text-align: center;
 }
 .couple-half .desc-bride {
-  padding-left: 180px;
-  text-align: left;
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
@@ -1167,20 +1164,20 @@ form label {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
-  font-family: 'NanumNeuRisNeuRisCe', "Sacramento", Arial, serif;
+  color: #BAE8B0;
+  font-family: 'MaruBuri', "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 13px;
   line-height: 1.5;
   color: #828282;
 }
@@ -1831,3 +1828,65 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+.row.account {
+  text-align: left;
+  position: relative;
+  float:left;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  /*border: 1px solid #0b0b0b;*/
+  justify-content: space-between;
+  padding-inline-start: 0px;
+}
+
+.account_header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 100%;
+}
+.account_owner {
+  width: 80px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-right: 8px;
+}
+.account_box {
+  width: 145px;
+  border-left: 1px solid #0b0b0b;
+}
+.bride_account {
+  margin-top: 30px;
+}
+.account_no_copy {
+  padding: 5px;
+  /*background: #FAE8B0;*/
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  font-size: 10px;
+  display: flex;
+  width: 45px;
+}
+.account_header.account_no_copy {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.smaller_h6 {
+  font-size: 10px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.account_no_copy_li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
