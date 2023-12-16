@@ -103,6 +103,11 @@ h5 {
   margin-top: 10px;
 }
 
+.d-day-h5 {
+  color: #666666;
+  margin-bottom: 0px;
+}
+
 h6 {
   text-align: left;
 }
@@ -912,7 +917,7 @@ form label {
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
-  margin-top: 100px;
+  margin-top: 320px;
   margin-bottom: 0px;
   font-size: 80px;
   line-height: 1.5;
@@ -922,6 +927,15 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
+    margin-top: 300px;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #fh5co-header .display-tc h1,
+  #fh5co-counter .display-tc h1,
+  .fh5co-cover .display-tc h1 {
+    margin-top: 220px;
     font-size: 40px;
   }
 }
@@ -929,7 +943,23 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    margin-top: 125px;
+    margin-top: 170px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #fh5co-header .display-tc h1,
+  #fh5co-counter .display-tc h1,
+  .fh5co-cover .display-tc h1 {
+    margin-top: 130px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  #fh5co-header .display-tc h1,
+  #fh5co-counter .display-tc h1,
+  .fh5co-cover .display-tc h1 {
+    margin-top: 100px;
     font-size: 25px;
   }
 }
@@ -1067,7 +1097,7 @@ form label {
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 7px;
+  font-size: 6px;
   /* words */
 }
 
