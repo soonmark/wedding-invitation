@@ -304,8 +304,29 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.2);
 }
 
+.top-cover-box {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.top-cover-inner-box {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  right: -200%;
+  left: -200%;
+}
+
+.top-cover-image {
+  /*clip-path: inset(0 0 0 calc(50px));*/
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .fh5co-cover {
-  height: 600px;
+  height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -840,6 +861,7 @@ form label {
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
+  margin-top: 100px;
   margin-bottom: 0px;
   font-size: 80px;
   line-height: 1.5;
@@ -849,6 +871,7 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
+    margin-top: 240px;
     font-size: 40px;
   }
 }
@@ -856,6 +879,7 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
+    margin-top: 240px;
     font-size: 30px;
   }
 }
