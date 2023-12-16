@@ -99,6 +99,10 @@ h5 {
   text-align: center;
 }
 
+.small-margin-h5 {
+  margin-top: 10px;
+}
+
 h6 {
   text-align: left;
 }
