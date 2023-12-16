@@ -1003,6 +1003,7 @@ form label {
 .simply-countdown {
   /* The countdown */
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .simply-countdown > .simply-section {
@@ -1054,7 +1055,7 @@ form label {
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 9px;
+  font-size: 7px;
   /* words */
 }
 
