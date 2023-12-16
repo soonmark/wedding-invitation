@@ -307,16 +307,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .top-cover-box {
   position: relative;
   width: 100%;
-  height: 400px;
+  /*height: 400px;*/
 }
 
 .top-cover-inner-box {
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 0;
-  bottom: 0;
-  right: -200%;
-  left: -200%;
 }
 
 .top-cover-image {
@@ -326,7 +322,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 400px;
+  /*height: 400px;*/
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -347,19 +343,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 400px;
+    /*height: 400px;*/
   }
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 600px;
+  /*height: 600px;*/
   display: table;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 400px;
+    /*height: 400px;*/
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -871,7 +867,6 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    margin-top: 240px;
     font-size: 40px;
   }
 }
@@ -879,8 +874,8 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    margin-top: 240px;
-    font-size: 30px;
+    margin-top: 110px;
+    font-size: 25px;
   }
 }
 #fh5co-header .display-tc h2,
@@ -1044,7 +1039,7 @@ form label {
   #fh5co-couple,
   #fh5co-gallery,
   .fh5co-section {
-    padding: 3em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1182,7 +1177,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1192,7 +1187,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #BAE8B0;
+  color: #CEF0B9;
   font-family: 'MaruBuri', "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1211,6 +1206,10 @@ form label {
   letter-spacing: 2px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.4);
+}
+
+#main-title-married {
+  color: #0b0b0b;
 }
 
 #fh5co-testimonial .wrap-testimony {
