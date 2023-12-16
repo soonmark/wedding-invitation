@@ -95,6 +95,10 @@ h5 {
   text-align: left;
 }
 
+.center-align-h5 {
+  text-align: center;
+}
+
 h6 {
   text-align: left;
 }
