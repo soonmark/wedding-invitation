@@ -121,6 +121,14 @@ hr {
   padding-right: 0px;
 }
 
+.bride-groom-desc-p1 {
+  margin-bottom: 0;
+}
+
+.bride-groom-desc-p2 {
+  font-size: 11px;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #F14E95;
