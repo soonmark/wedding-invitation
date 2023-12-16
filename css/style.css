@@ -112,6 +112,11 @@ hr {
   margin-bottom: 10px;
 }
 
+#venue-map {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #F14E95;
