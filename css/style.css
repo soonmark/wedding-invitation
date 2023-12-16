@@ -78,6 +78,40 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+#venue-address {
+  font-size: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h5 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+h6 {
+  text-align: left;
+}
+
+#parking-notice {
+  margin-bottom: 7px;
+}
+
+.lunch-notice {
+  text-align: center;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #F14E95;
@@ -1065,7 +1099,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #F14E95;
+  color: #ac2925;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1079,7 +1113,7 @@ form label {
 
 .couple-half h3 {
   font-family: 'MaruBuri', "Sacramento", Arial, serif;
-  color: #F14E95;
+  color: #0a0a0a;
   font-size: 18px;
 }
 .couple-half .groom, .couple-half .bride {
