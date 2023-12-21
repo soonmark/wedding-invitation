@@ -191,12 +191,6 @@ hr {
     color: #fff;
 }
 
-@media screen and (max-width: 768px) {
-    .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
-        display: none;
-    }
-}
-
 .fh5co-nav ul {
     padding: 0;
     margin: 2px 0 0 0;
@@ -1924,12 +1918,6 @@ form label {
     width: 44px;
     z-index: 2001;
     border-bottom: none !important;
-}
-
-@media screen and (max-width: 768px) {
-    .fh5co-nav-toggle {
-        display: block;
-    }
 }
 
 .btn {

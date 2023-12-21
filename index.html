@@ -55,10 +55,49 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/i18next.min.js"></script>
+    <script src="js/i18nextHttpBackend.min.js"></script>
+    <script>
+        i18next.use(i18nextHttpBackend);
+        i18next.init({
+            backend : {
+                loadPath: 'i18n/locale/{{lng}}.json'
+            },
+            fallbackLng : ['kr', 'en'],
+            lng : 'kr',
+        }, function(t) {
+            $('.trans-title').innerHTML = i18next.t("title");
+        });
+
+        function updateContents() {
+            $('.trans-title').text(i18next.t("title"));
+        }
+
+        i18next.on("languageChanged", () => {
+            updateContents();
+        })
+    </script>
 </head>
 <body>
 
 <div class="fh5co-loader"></div>
+
+<div id="page">
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1 text-right menu-1">
+                    <ul>
+                        <li id="kr-lang"><a href="javascript:void(0);" onclick="i18next.changeLanguage('kr');">Korean</a></li>
+                        <li id="en-lang"><a href="javascript:void(0);" onclick="i18next.changeLanguage('en');">English</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
 
 <header id="fh5co-header" class="fh5co-cover" role="banner">
     <div class="top-cover-box">
@@ -86,7 +125,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                <h2 id="main-title-married">결혼합니다</h2>
+                <h2 id="main-title-married" class="trans-title">결혼합니다</h2>
                 <h5 class="center-align-h5 small-margin-h5">2024년 4월 6일 토요일 오후 12시 30분</h5>
                 <h5 class="center-align-h5 small-margin-h5">컨벤션 헤리츠 2층 아그니스홀</h5>
             </div>
@@ -322,7 +361,8 @@
 
 <div id="fh5co-wedding-venue-location">
     <div class="container">
-        <div id="venue-map" class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+        <div id="venue-map"
+             class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
             <section class="section" id="section-3">
                 <h2>오시는 길</h2>
                 <div id="map" style="width: 90%; height: 300px; margin:auto"></div>
