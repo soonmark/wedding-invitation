@@ -2227,10 +2227,6 @@ li {
     padding-right: 2px;
 }
 
-.account_no_copy:hover {
-    background-color: #dddddd;
-}
-
 /** toast style **/
 .toast {
     position: fixed;
