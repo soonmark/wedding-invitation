@@ -94,6 +94,7 @@ h4 {
 #venue-address {
     font-size: 12px;
     margin-bottom: 40px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -2219,4 +2220,39 @@ li {
 .account_no_copy_li {
     padding-left: 2px;
     padding-right: 2px;
+}
+
+.account_no_copy_li {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.account_no_copy:hover {
+    background-color: #dddddd;
+}
+
+/** toast style **/
+.toast {
+    position: fixed;
+    width:90%;
+    max-width:500px;
+    right: 50%;
+    bottom: -10%;
+    transform: translateX(50%);
+    z-index: 100;
+    word-break:break-all;
+    text-align:center;
+}
+
+.toast p {
+    display: none;
+    font-size: 15px;
+    line-height:21px;
+    font-weight: 400;
+    color: #fff;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.24);
+    background-color: rgba(51, 51, 51, 0.9);
+    border-radius: 3px;
+    padding:20px;
+    font-family: 'Noto Sans Kr', sans-serif;
 }
