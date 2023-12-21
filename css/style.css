@@ -2252,3 +2252,10 @@ li {
     padding:20px;
     font-family: 'Noto Sans Kr', sans-serif;
 }
+
+#show-more-photos {
+    margin-top: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
