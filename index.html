@@ -72,11 +72,39 @@
             fallbackLng: ['kr', 'en'],
             lng: 'kr',
         }, function (t) {
-            $('.trans-title').innerHTML = i18next.t("title");
         });
 
         function updateContents() {
             $('.trans-title').text(i18next.t("title"));
+            $('.trans-wedding-date').text(i18next.t("wedding-date"));
+            $('.trans-wedding-venue').text(i18next.t("wedding-venue"));
+            $('.trans-groom-parents').html(i18next.t("groom-parents"));
+            $('.trans-bride-parents').html(i18next.t("bride-parents"));
+            $('.trans-groom-name').html(i18next.t("groom-name"));
+            $('.trans-bride-name').html(i18next.t("bride-name"));
+            $('.trans-groom-desc-1').text(i18next.t("groom-desc-1"));
+            $('.trans-groom-desc-2').text(i18next.t("groom-desc-2"));
+            $('.trans-bride-desc-1').text(i18next.t("bride-desc-1"));
+            $('.trans-bride-desc-2').text(i18next.t("bride-desc-2"));
+            $('.trans-intro-1').text(i18next.t("intro-1"));
+            $('.trans-intro-2').text(i18next.t("intro-2"));
+            $('.trans-intro-3').text(i18next.t("intro-3"));
+            $('.trans-intro-4').text(i18next.t("intro-4"));
+            $('.trans-intro-5').text(i18next.t("intro-5"));
+            $('.trans-show-more').text(i18next.t("show-more"));
+            $('.trans-location').text(i18next.t("location"));
+            $('.trans-venue-name').text(i18next.t("venue-name"));
+            $('.trans-venue-address').text(i18next.t("venue-address"));
+            $('.trans-subway').html(i18next.t("subway"));
+            $('.trans-subway-case-1').text(i18next.t("subway-case-1"));
+            $('.trans-subway-case-2').text(i18next.t("subway-case-2"));
+            $('.trans-bus').html(i18next.t("bus"));
+            $('.trans-bus-case-1').text(i18next.t("bus-case-1"));
+            $('.trans-bus-case-2').text(i18next.t("bus-case-2"));
+            $('.car').html(i18next.t("car"));
+            $('.trans-car-case-1').text(i18next.t("car-case-1"));
+            $('.trans-car-case-2').text(i18next.t("car-case-2"));
+            $('.trans-car-case-2-1').text(i18next.t("car-case-2-1"));
         }
 
         i18next.on("languageChanged", () => {
@@ -109,20 +137,6 @@
         <div class="top-cover-box">
             <div class="top-cover-inner-box" data-stellar-background-ratio="0.5">
                 <img class="top-cover-image" src="images/wedding8_1.jpg" alt="image"/>
-                <!--                <div class="overlay">-->
-                <!--                    <div class="container">-->
-                <!--                        <div class="row">-->
-                <!--                            <div class="col-md-8 col-md-offset-2 text-center">-->
-                <!--                                <div class="display-t">-->
-                <!--                                    <div class="display-tc animate-box" data-animate-effect="fadeIn">-->
-                <!--                                        <h1>Yongwoo &amp; Sujeong</h1>-->
-                <!--                                        <h2>We Are Getting Married</h2>-->
-                <!--                                    </div>-->
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
             </div>
         </div>
     </header>
@@ -132,44 +146,35 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                     <h2 id="main-title-married" class="trans-title">결혼합니다</h2>
-                    <h5 class="center-align-h5 small-margin-h5">2024년 4월 6일 토요일 오후 12시 30분</h5>
-                    <h5 class="center-align-h5 small-margin-h5">컨벤션 헤리츠 2층 아그니스홀</h5>
+                    <h5 class="center-align-h5 small-margin-h5 trans-wedding-date">2024년 4월 6일 토요일 오후 12시 30분</h5>
+                    <h5 class="center-align-h5 small-margin-h5 trans-wedding-venue">컨벤션 헤리츠 2층 아그니스홀</h5>
                 </div>
             </div>
             <div class="couple-wrap animate-box">
                 <div class="couple-half">
-                    <!--                    <div class="groom">-->
-                    <!--                        <img src="images/groom.PNG" alt="groom" class="img-responsive">-->
-                    <!--                    </div>-->
                     <div class="desc-groom">
-                        <h5 class="center-align-h5 small-margin-h5"><strong>박찬익・추명리</strong> 의 차남</h5>
-                        <h3><strong>용우</strong></h3>
-                        <p class="bride-groom-desc-p1 bride-groom-desc-p2">모든 걸 내어주고 싶은</p>
-                        <p class="bride-groom-desc-p2">사람을 만났습니다.</p>
+                        <h5 class="center-align-h5 small-margin-h5 trans-groom-parents"><strong>박찬익・추명리</strong> 의 차남</h5>
+                        <h3 class="trans-groom-name"><strong>용우</strong></h3>
+                        <p class="bride-groom-desc-p1 bride-groom-desc-p2 trans-groom-desc-1">모든 걸 내어주고 싶은</p>
+                        <p class="bride-groom-desc-p2 trans-groom-desc-2">사람을 만났습니다.</p>
                     </div>
                 </div>
-                <!--                <p class="heart text-center"><i class="icon-heart2"></i></p>-->
                 <div class="couple-half">
-                    <!--                    <div class="bride">-->
-                    <!--                        <img src="images/bride.PNG" alt="groom" class="img-responsive">-->
-                    <!--                    </div>-->
                     <div class="desc-bride">
-                        <h5 class="center-align-h5 small-margin-h5"><strong>김영석・나영란</strong> 의 차녀</h5>
-                        <h3><strong>수정</strong></h3>
-                        <p class="bride-groom-desc-p1 bride-groom-desc-p2">끊임없이 함께 웃을 수 있는</p>
-                        <p class="bride-groom-desc-p2">사람을 만났습니다.</p>
+                        <h5 class="center-align-h5 small-margin-h5 trans-bride-parents"><strong>김영석・나영란</strong> 의 차녀</h5>
+                        <h3 class="trans-bride-name"><strong>수정</strong></h3>
+                        <p class="bride-groom-desc-p1 bride-groom-desc-p2 trans-bride-desc-1">끊임없이 함께 웃을 수 있는</p>
+                        <p class="bride-groom-desc-p2 trans-bride-desc-2">사람을 만났습니다.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" style="margin-top: 150px">
-                    <h5 class="center-align-h5 small-margin-h5">하나님의 사랑으로 만난 저희 두 사람이</h5>
-                    <h5 class="center-align-h5 small-margin-h5">하나가 되는 약속을 하는 첫날,</h5>
-                    <h5 class="center-align-h5 small-margin-h5">서로를 섬기며 주위에 사랑을 나누는</h5>
-                    <h5 class="center-align-h5 small-margin-h5">복된 가정을 이룰 수 있도록</h5>
-                    <h5 class="center-align-h5 small-margin-h5">함께 하셔서 축복해 주시면 감사하겠습니다.</h5>
-                    <!--                    <h5 class="center-align-h5 d-day-h5"><strong>D - Day</strong></h5>-->
-                    <!--                    <div class="simply-countdown simply-countdown-one"></div>-->
+                    <h5 class="center-align-h5 small-margin-h5 trans-intro-1">하나님의 사랑으로 만난 저희 두 사람이</h5>
+                    <h5 class="center-align-h5 small-margin-h5 trans-intro-2">하나가 되는 약속을 하는 첫날,</h5>
+                    <h5 class="center-align-h5 small-margin-h5 trans-intro-3">서로를 섬기며 주위에 사랑을 나누는</h5>
+                    <h5 class="center-align-h5 small-margin-h5 trans-intro-4">복된 가정을 이룰 수 있도록</h5>
+                    <h5 class="center-align-h5 small-margin-h5 trans-intro-5">함께 하셔서 축복해 주시면 감사하겠습니다.</h5>
                 </div>
             </div>
             <div class="row">
@@ -303,7 +308,7 @@
                         <li class="one-third animate-box" data-animate-effect="fadeIn"
                             style="background-image: url(images/memories3.jpg); ">
                             <a href="images/memories3.jpg">
-                                <p id="show-more-photos">+ 더보기</p>
+                                <p id="show-more-photos" class="trans-show-more">+ 더 보기</p>
                             </a>
                         </li>
                         <li class="one-third animate-box" data-animate-effect="fadeIn"
@@ -382,26 +387,26 @@
             <div id="venue-map"
                  class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
                 <section class="section" id="section-3">
-                    <h2>오시는 길</h2>
-                    <h4 id="venue-name">컨벤션 헤리츠</h4>
-                    <h5 id="venue-address">서울 강남구 논현로 662 헤리츠타워</h5>
+                    <h2 class="trans-location">오시는 길</h2>
+                    <h4 id="venue-name" class="trans-venue-name">컨벤션 헤리츠</h4>
+                    <h5 id="venue-address" class="trans-venue-address">서울 강남구 논현로 662 헤리츠타워</h5>
                     <div id="map" style="width: 90%; height: 300px; margin:auto"></div>
                 </section>
             </div>
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h5><i id="subway-icon" class="material-icons">directions_subway</i> 지하철</h5>
+                <h5 class="trans-subway"><i id="subway-icon" class="material-icons">directions_subway</i> 지하철</h5>
                 <hr>
-                <h6>- 7호선 학동역 3번 출구 도보 60m</h6>
-                <h6>- 9호선 언주역 3번 출구 도보 500m</h6>
-                <h5><i id="bus-icon" class="material-icons">directions_bus</i> 버스</h5>
+                <h6 class="trans-subway-case-1">- 7호선 학동역 3번 출구 도보 60m</h6>
+                <h6 class="trans-subway-case-2">- 9호선 언주역 3번 출구 도보 500m</h6>
+                <h5 class="trans-bus"><i id="bus-icon" class="material-icons">directions_bus</i> 버스</h5>
                 <hr>
-                <h6>- 간선 147번, 240번, 241번, 401번, 463번</h6>
-                <h6>- 지선 3412번, 3414번, 4211번, 6411번</h6>
-                <h5><i id="car-icon" class="material-icons">directions_car</i> 자가용</h5>
+                <h6 class="trans-bus-case-1">- 간선 147번, 240번, 241번, 401번, 463번</h6>
+                <h6 class="trans-bus-case-2">- 지선 3412번, 3414번, 4211번, 6411번</h6>
+                <h5 class="trans-car"><i id="car-icon" class="material-icons">directions_car</i> 자가용</h5>
                 <hr>
-                <h6>- 네비게이션 : '컨벤션 헤리츠' 또는 '서울 강남구 논현로 662' 입력</h6>
-                <h6 id="parking-notice">- 주차장 이용 시 10-20분 가량 지연이 있을 수 있습니다.</h6>
-                <h6 style="margin-left: 8px;"> (하객 2시간 무료 주차)</h6>
+                <h6 class="trans-car-case-1">- 네비게이션 : '컨벤션 헤리츠' 또는 '서울 강남구 논현로 662' 입력</h6>
+                <h6 id="parking-notice" class="trans-car-case-2">- 주차장 이용 시 10-20분 가량 지연이 있을 수 있습니다.</h6>
+                <h6 class="trans-car-case-2-1" style="margin-left: 8px;">(하객 2시간 무료 주차)</h6>
             </div>
         </div>
     </div>
