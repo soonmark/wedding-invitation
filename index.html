@@ -105,6 +105,9 @@
             $('.trans-car-case-1').text(i18next.t("car-case-1"));
             $('.trans-car-case-2').text(i18next.t("car-case-2"));
             $('.trans-car-case-2-1').text(i18next.t("car-case-2-1"));
+            $('.trans-account-title').text(i18next.t("account-title"));
+            $('.trans-groom-side').text(i18next.t("groom-side"));
+            $('.trans-bride-side').text(i18next.t("bride-side"));
         }
 
         i18next.on("languageChanged", () => {
@@ -414,8 +417,8 @@
     <div id="fh5co-account" class="fh5co-section-gray">
         <div class="container">
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-                <h2>축하의 마음 전하기</h2>
-                <h4 id="groom_side">신랑 측</h4>
+                <h2 class="trans-account-title">축하의 마음 전하기</h2>
+                <h4 id="groom_side" class="trans-groom-side">신랑 측</h4>
                 <hr>
                 <div class="row account">
                     <ul>
@@ -464,7 +467,7 @@
                         </li>
                     </ul>
                 </div>
-                <h4 id="bride_side">신부 측</h4>
+                <h4 id="bride_side" class="trans-bride-side">신부 측</h4>
                 <hr>
                 <div class="row account">
                     <ul>

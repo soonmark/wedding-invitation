@@ -28,5 +28,8 @@
   "car": "<i id=\"car-icon\" class=\"material-icons\">directions_car</i> 자가용",
   "car-case-1": "- 네비게이션 : '컨벤션 헤리츠' 또는 '서울 강남구 논현로 662' 입력",
   "car-case-2": "- 주차장 이용 시 10-20분 가량 지연이 있을 수 있습니다.",
-  "car-case-2-1": "(하객 2시간 무료 주차)"
+  "car-case-2-1": "(하객 2시간 무료 주차)",
+  "account-title": "축하의 마음 전하기",
+  "groom-side": "신랑 측",
+  "bride-side": "신부 측"
 }
