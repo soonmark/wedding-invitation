@@ -828,7 +828,7 @@ hr {
     padding: 0;
     margin: 0 0 10px 1%;
     list-style: none;
-    min-height: 130px;
+    min-height: 120px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -848,8 +848,8 @@ hr {
 }
 
 #fh5co-gallery-list li a {
-    min-height: 130px;
-    padding: 2em;
+    min-height: 120px;
+    padding: 1em;
     position: relative;
     width: 100%;
     display: block;
@@ -1179,6 +1179,7 @@ form label {
 
 .simply-countdown > .simply-section {
     /* coutndown blocks */
+    padding-left: 2px;
     display: inline-block;
     width: 55px;
     height: 55px;
@@ -2271,10 +2272,13 @@ li {
 }
 
 #show-more-photos {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
+    font-size: 13px;
+    padding-top: 3px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
     color: #ffffff;
-    font-weight: bold;
 }
 
 #subway-icon {
