@@ -230,7 +230,7 @@ hr {
     font-size: 14px;
     padding: 30px 10px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.3);
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
