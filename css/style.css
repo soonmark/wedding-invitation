@@ -1264,7 +1264,7 @@ form label {
 }
 
 .fh5co-section-gray {
-    background: rgba(0, 0, 0, 0.04);
+    background: rgba(212, 229, 185, 0.25);
 }
 
 .couple-wrap {
@@ -1423,6 +1423,7 @@ form label {
 .fh5co-heading h2 {
     font-size: 40px;
     margin-bottom: 10px;
+    margin-top: 10px;
     line-height: 1.5;
     /*font-weight: bold;*/
     /*color: #D4E5B9;*/
@@ -2175,7 +2176,7 @@ form label {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -2297,4 +2298,8 @@ li {
     color: rgba(134, 173, 128, 0.8);
     font-size: 20px;
     transform: translateY(20%);
+}
+
+#wedding-gallery {
+    margin-top: 0px;
 }
