@@ -12,6 +12,16 @@
 }
 
 @font-face {
+    font-family: 'SeoulHangang';
+    src: url("../fonts/SeoulHangangL.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'SeoulNamsan';
+    src: url("../fonts/SeoulNamsanL.ttf") format("truetype");
+}
+
+@font-face {
     font-family: 'MaruBuri';
 }
 /* =======================================================
@@ -25,7 +35,7 @@
 }
 
 body {
-    font-family: 'MaruBuri', "Work Sans", Arial, sans-serif;
+    font-family: 'SeoulHangang', 'MaruBuri', "Work Sans", Arial, sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 1.7;
@@ -81,7 +91,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
     color: #000;
-    font-family: 'MaruBuri', "Work Sans", Arial, sans-serif;
+    font-family: 'SeoulHangang', 'MaruBuri', "Work Sans", Arial, sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
@@ -1159,7 +1169,9 @@ form label {
     display: inline-block;
     width: 55px;
     height: 55px;
-    background: rgba(186, 232, 176, 0.8);
+    /*background: rgba(212, 229, 185, 0.8); !* #D4E5B9 *!*/
+    background: rgba(134, 173, 128, 0.8); /* #86AD80 */
+    /*background: rgba(94, 122, 88, 0.8); !* #5E7A58 *!*/
     margin: 0 4px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1273,7 +1285,7 @@ form label {
 }
 
 .couple-half h3 {
-    font-family: 'MaruBuri', "Sacramento", Arial, serif;
+    font-family: 'SeoulHangang', 'MaruBuri', "Sacramento", Arial, serif;
     color: #0a0a0a;
     font-size: 18px;
 }
@@ -1398,9 +1410,11 @@ form label {
     font-size: 40px;
     margin-bottom: 10px;
     line-height: 1.5;
-    font-weight: bold;
-    color: #CEF0B9;
-    font-family: 'MaruBuri', "Sacramento", Arial, serif;
+    /*font-weight: bold;*/
+    /*color: #D4E5B9;*/
+    color: #86AD80;
+    /*color: #5E7A58;*/
+    font-family: 'SeoulHangang', 'MaruBuri', "Sacramento", Arial, serif;
 }
 
 @media screen and (max-width: 768px) {
