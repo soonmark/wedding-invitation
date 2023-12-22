@@ -73,14 +73,14 @@ body {
 }
 
 a {
-    color: #F14E95;
+    color: #86AD80;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-    color: #F14E95;
+    color: #86AD80;
     outline: none;
     text-decoration: none;
 }
@@ -308,7 +308,7 @@ hr {
 }
 
 .fh5co-nav ul li.btn-cta a {
-    color: #F14E95;
+    color: #86AD80;
 }
 
 .fh5co-nav ul li.btn-cta a span {
@@ -948,7 +948,7 @@ hr {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    color: #F14E95;
+    color: #86AD80;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -970,7 +970,7 @@ hr {
 }
 
 .fh5co-contact-info ul li:before {
-    color: #F14E95;
+    color: #86AD80;
     position: absolute;
     left: 0;
     top: .05em;
@@ -1111,7 +1111,7 @@ form label {
 .fh5co-cover .display-tc .btn {
     padding: 15px 20px;
     background: #fff !important;
-    color: #F14E95;
+    color: #86AD80;
     border: none !important;
     font-size: 14px;
     text-transform: uppercase;
@@ -1398,7 +1398,7 @@ form label {
     height: 90px;
     font-size: 40px;
     line-height: 40px;
-    color: #F14E95;
+    color: #86AD80;
 }
 
 .feature-center p, .feature-center h3 {
@@ -1471,7 +1471,7 @@ form label {
 }
 
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-    color: #F14E95;
+    color: #86AD80;
     font-weight: 300;
 }
 
@@ -1576,7 +1576,7 @@ form label {
     display: table-cell;
     vertical-align: middle;
     font-size: 30px;
-    color: #F14E95;
+    color: #86AD80;
 }
 
 .feature-left .feature-copy {
@@ -1655,7 +1655,7 @@ form label {
 #fh5co-started .btn {
     height: 54px;
     border: none !important;
-    background: #F14E95;
+    background: #86AD80;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -1707,7 +1707,7 @@ form label {
 
 .owl-carousel .owl-controls .owl-dot.active span {
     background: transparent;
-    border: 2px solid #F14E95;
+    border: 2px solid #86AD80;
 }
 
 #fh5co-offcanvas {
@@ -1977,9 +1977,9 @@ form label {
 }
 
 .btn-primary {
-    background: #F14E95;
+    background: #86AD80;
     color: #fff;
-    border: 2px solid #F14E95;
+    border: 2px solid #86AD80;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -1989,12 +1989,12 @@ form label {
 
 .btn-primary.btn-outline {
     background: transparent;
-    color: #F14E95;
-    border: 2px solid #F14E95;
+    color: #86AD80;
+    border: 2px solid #86AD80;
 }
 
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-    background: #F14E95;
+    background: #86AD80;
     color: #fff;
 }
 
@@ -2141,7 +2141,7 @@ form label {
 .form-control:active, .form-control:focus {
     outline: none;
     box-shadow: none;
-    border-color: #F14E95;
+    border-color: #86AD80;
 }
 
 .row-pb-md {
@@ -2186,8 +2186,8 @@ ul {
 }
 
 .account_header {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 li {
@@ -2197,15 +2197,10 @@ li {
 }
 
 .account_owner {
-    width: 80px;
+    width: 250px;
     padding-left: 2px;
     padding-right: 2px;
     margin-right: 8px;
-}
-
-.account_box {
-    width: 145px;
-    border-left: 1px solid #0b0b0b;
 }
 
 #groom_side {
@@ -2229,15 +2224,15 @@ li {
 }
 
 .account_header.account_no_copy {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.smaller_h6 {
-    font-size: 10px;
-    margin-top: 11px;
-    margin-bottom: 11px;
-}
+/*.smaller_h6 {*/
+/*    font-size: 10px;*/
+/*    margin-top: 11px;*/
+/*    margin-bottom: 11px;*/
+/*}*/
 
 .account_no_copy_li {
     padding-left: 2px;
