@@ -2276,3 +2276,21 @@ li {
     color: #ffffff;
     font-weight: bold;
 }
+
+#subway-icon {
+    color: rgba(134, 173, 128, 0.8);
+    font-size: 20px;
+    transform: translateY(20%);
+}
+
+#bus-icon {
+    color: rgba(134, 173, 128, 0.8);
+    font-size: 20px;
+    transform: translateY(20%);
+}
+
+#car-icon {
+    color: rgba(134, 173, 128, 0.8);
+    font-size: 20px;
+    transform: translateY(20%);
+}

@@ -397,7 +397,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid rgba(134, 173, 128, 0.8);
 }
 
 .sr-only {
