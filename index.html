@@ -64,12 +64,12 @@
     <script>
         i18next.use(i18nextHttpBackend);
         i18next.init({
-            backend : {
+            backend: {
                 loadPath: 'i18n/locale/{{lng}}.json'
             },
-            fallbackLng : ['kr', 'en'],
-            lng : 'kr',
-        }, function(t) {
+            fallbackLng: ['kr', 'en'],
+            lng: 'kr',
+        }, function (t) {
             $('.trans-title').innerHTML = i18next.t("title");
         });
 
@@ -92,8 +92,10 @@
             <div class="row">
                 <div class="col-xs-1 text-right menu-1">
                     <ul>
-                        <li id="kr-lang"><a href="javascript:void(0);" onclick="i18next.changeLanguage('kr');">Korean</a></li>
-                        <li id="en-lang"><a href="javascript:void(0);" onclick="i18next.changeLanguage('en');">English</a></li>
+                        <li id="kr-lang"><a href="javascript:void(0);"
+                                            onclick="i18next.changeLanguage('kr');">Korean</a></li>
+                        <li id="en-lang"><a href="javascript:void(0);"
+                                            onclick="i18next.changeLanguage('en');">English</a></li>
                     </ul>
                 </div>
             </div>
@@ -101,18 +103,19 @@
         </div>
     </nav>
 
-<header id="fh5co-header" class="fh5co-cover" role="banner">
-    <div class="top-cover-box">
-        <div class="top-cover-inner-box" data-stellar-background-ratio="0.5">
-            <img class="top-cover-image" src="images/wedding6.jpg" alt="image"/>
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <div class="display-t">
-                                <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                    <h1>Yongwoo &amp; Sujeong</h1>
-                                    <h2>We Are Getting Married</h2>
+    <header id="fh5co-header" class="fh5co-cover" role="banner">
+        <div class="top-cover-box">
+            <div class="top-cover-inner-box" data-stellar-background-ratio="0.5">
+                <img class="top-cover-image" src="images/wedding6.jpg" alt="image"/>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="display-t">
+                                    <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                                        <h1>Yongwoo &amp; Sujeong</h1>
+                                        <h2>We Are Getting Married</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -120,430 +123,432 @@
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<div id="fh5co-couple">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                <h2 id="main-title-married" class="trans-title">결혼합니다</h2>
-                <h5 class="center-align-h5 small-margin-h5">2024년 4월 6일 토요일 오후 12시 30분</h5>
-                <h5 class="center-align-h5 small-margin-h5">컨벤션 헤리츠 2층 아그니스홀</h5>
-            </div>
-        </div>
-        <div class="couple-wrap animate-box">
-            <div class="couple-half">
-                <div class="groom">
-                    <img src="images/groom.PNG" alt="groom" class="img-responsive">
-                </div>
-                <div class="desc-groom">
-                    <h5 class="center-align-h5 small-margin-h5"><strong>박찬익・추명리</strong> 의 차남</h5>
-                    <h3><strong>용우</strong></h3>
-                    <p class="bride-groom-desc-p1 bride-groom-desc-p2">모든 걸 내어주고 싶은</p>
-                    <p class="bride-groom-desc-p2">사람을 만났습니다.</p>
+    <div id="fh5co-couple">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                    <h2 id="main-title-married" class="trans-title">결혼합니다</h2>
+                    <h5 class="center-align-h5 small-margin-h5">2024년 4월 6일 토요일 오후 12시 30분</h5>
+                    <h5 class="center-align-h5 small-margin-h5">컨벤션 헤리츠 2층 아그니스홀</h5>
                 </div>
             </div>
-            <p class="heart text-center"><i class="icon-heart2"></i></p>
-            <div class="couple-half">
-                <div class="bride">
-                    <img src="images/bride.PNG" alt="groom" class="img-responsive">
+            <div class="couple-wrap animate-box">
+                <div class="couple-half">
+                    <div class="groom">
+                        <img src="images/groom.PNG" alt="groom" class="img-responsive">
+                    </div>
+                    <div class="desc-groom">
+                        <h5 class="center-align-h5 small-margin-h5"><strong>박찬익・추명리</strong> 의 차남</h5>
+                        <h3><strong>용우</strong></h3>
+                        <p class="bride-groom-desc-p1 bride-groom-desc-p2">모든 걸 내어주고 싶은</p>
+                        <p class="bride-groom-desc-p2">사람을 만났습니다.</p>
+                    </div>
                 </div>
-                <div class="desc-bride">
-                    <h5 class="center-align-h5 small-margin-h5"><strong>김영석・나영란</strong> 의 차녀</h5>
-                    <h3><strong>수정</strong></h3>
-                    <p class="bride-groom-desc-p1 bride-groom-desc-p2">끊임없이 함께 웃을 수 있는</p>
-                    <p class="bride-groom-desc-p2">사람을 만났습니다.</p>
+                <p class="heart text-center"><i class="icon-heart2"></i></p>
+                <div class="couple-half">
+                    <div class="bride">
+                        <img src="images/bride.PNG" alt="groom" class="img-responsive">
+                    </div>
+                    <div class="desc-bride">
+                        <h5 class="center-align-h5 small-margin-h5"><strong>김영석・나영란</strong> 의 차녀</h5>
+                        <h3><strong>수정</strong></h3>
+                        <p class="bride-groom-desc-p1 bride-groom-desc-p2">끊임없이 함께 웃을 수 있는</p>
+                        <p class="bride-groom-desc-p2">사람을 만났습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                    <h5 class="center-align-h5 small-margin-h5">하나님의 사랑으로 만난 저희 두 사람이</h5>
+                    <h5 class="center-align-h5 small-margin-h5">하나가 되는 약속을 하는 첫날,</h5>
+                    <h5 class="center-align-h5 small-margin-h5">서로를 섬기며 주위에 사랑을 나누는</h5>
+                    <h5 class="center-align-h5 small-margin-h5">복된 가정을 이룰 수 있도록</h5>
+                    <h5 class="center-align-h5 small-margin-h5">함께 하셔서 축복해 주시면 감사하겠습니다.</h5>
+                    <h5 class="center-align-h5 d-day-h5"><strong>D - Day</strong></h5>
+                    <div class="simply-countdown simply-countdown-one"></div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                <h5 class="center-align-h5 small-margin-h5">하나님의 사랑으로 만난 저희 두 사람이</h5>
-                <h5 class="center-align-h5 small-margin-h5">하나가 되는 약속을 하는 첫날,</h5>
-                <h5 class="center-align-h5 small-margin-h5">서로를 섬기며 주위에 사랑을 나누는</h5>
-                <h5 class="center-align-h5 small-margin-h5">복된 가정을 이룰 수 있도록</h5>
-                <h5 class="center-align-h5 small-margin-h5">함께 하셔서 축복해 주시면 감사하겠습니다.</h5>
-                <h5 class="center-align-h5 d-day-h5"><strong>D - Day</strong></h5>
-                <div class="simply-countdown simply-countdown-one"></div>
+    </div>
+
+    <!--<div id="fh5co-wedding-venue-location">-->
+    <!--    <div class="container">-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">-->
+    <!--                <span>We Love Each Other</span>-->
+    <!--                <h2>Our Story</h2>-->
+    <!--                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live-->
+    <!--                    the blind texts.</p>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-md-12 col-md-offset-0">-->
+    <!--                <ul class="timeline animate-box">-->
+    <!--                    <li class="animate-box">-->
+    <!--                        <div class="timeline-badge" style="background-image:url(images/elemental1.jpg);"></div>-->
+    <!--                        <div class="timeline-panel">-->
+    <!--                            <div class="timeline-heading">-->
+    <!--                                <h3 class="timeline-title">First We Meet</h3>-->
+    <!--                                <span class="date">December 3, 2022</span>-->
+    <!--                            </div>-->
+    <!--                            <div class="timeline-body">-->
+    <!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and-->
+    <!--                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right-->
+    <!--                                    at the coast of the Semantics, a large language ocean.</p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </li>-->
+    <!--                    <li class="timeline-inverted animate-box">-->
+    <!--                        <div class="timeline-badge" style="background-image:url(images/elemental1.jpg);"></div>-->
+    <!--                        <div class="timeline-panel">-->
+    <!--                            <div class="timeline-heading">-->
+    <!--                                <h3 class="timeline-title">In A Relationship</h3>-->
+    <!--                                <span class="date">December 30, 2022</span>-->
+    <!--                            </div>-->
+    <!--                            <div class="timeline-body">-->
+    <!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and-->
+    <!--                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right-->
+    <!--                                    at the coast of the Semantics, a large language ocean.</p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </li>-->
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+
+    <div id="fh5co-gallery" class="fh5co-section-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                    <span>Our Memories</span>
+                    <h2>Wedding Gallery</h2>
+                </div>
+            </div>
+            <div class="row row-bottom-padded-md">
+                <div class="col-md-12">
+                    <ul id="fh5co-gallery-list">
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding1.jpg); ">
+                            <a href="images/wedding1.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding2.jpg); ">
+                            <a href="images/wedding2.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding3.jpg); ">
+                            <a href="images/wedding3.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding4.jpg); ">
+                            <a href="images/wedding4.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding5.jpg); ">
+                            <a href="images/wedding5.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding6.jpg); ">
+                            <a href="images/wedding6.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding7.jpg); ">
+                            <a href="images/wedding7.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding8.jpg); ">
+                            <a href="images/wedding8.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/wedding9.jpg); ">
+                            <a href="images/wedding9.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories1.jpg); ">
+                            <a href="images/memories1.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories2.jpg); ">
+                            <a href="images/memories2.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories3.jpg); ">
+                            <a href="images/memories3.jpg">
+                                <p id="show-more-photos">+ 더보기</p>
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories4.jpg); display: none">
+                            <a href="images/memories4.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories5.jpg); display: none">
+                            <a href="images/memories5.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories6.jpg); display: none">
+                            <a href="images/memories6.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories7.jpg); display: none">
+                            <a href="images/memories7.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories8.jpg); display: none">
+                            <a href="images/memories8.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories9.jpg); display: none">
+                            <a href="images/memories9.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories10.jpg); display: none">
+                            <a href="images/memories10.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories11.jpg); display: none">
+                            <a href="images/memories11.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories12.jpg); display: none">
+                            <a href="images/memories12.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories13.jpg); display: none">
+                            <a href="images/memories13.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories14.jpg); display: none">
+                            <a href="images/memories14.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories15.jpg); display: none">
+                            <a href="images/memories15.jpg">
+                            </a>
+                        </li>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn"
+                            style="background-image: url(images/memories16.jpg); display: none">
+                            <a href="images/memories16.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!--<div id="fh5co-wedding-venue-location">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">-->
-<!--                <span>We Love Each Other</span>-->
-<!--                <h2>Our Story</h2>-->
-<!--                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live-->
-<!--                    the blind texts.</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12 col-md-offset-0">-->
-<!--                <ul class="timeline animate-box">-->
-<!--                    <li class="animate-box">-->
-<!--                        <div class="timeline-badge" style="background-image:url(images/elemental1.jpg);"></div>-->
-<!--                        <div class="timeline-panel">-->
-<!--                            <div class="timeline-heading">-->
-<!--                                <h3 class="timeline-title">First We Meet</h3>-->
-<!--                                <span class="date">December 3, 2022</span>-->
-<!--                            </div>-->
-<!--                            <div class="timeline-body">-->
-<!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and-->
-<!--                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right-->
-<!--                                    at the coast of the Semantics, a large language ocean.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </li>-->
-<!--                    <li class="timeline-inverted animate-box">-->
-<!--                        <div class="timeline-badge" style="background-image:url(images/elemental1.jpg);"></div>-->
-<!--                        <div class="timeline-panel">-->
-<!--                            <div class="timeline-heading">-->
-<!--                                <h3 class="timeline-title">In A Relationship</h3>-->
-<!--                                <span class="date">December 30, 2022</span>-->
-<!--                            </div>-->
-<!--                            <div class="timeline-body">-->
-<!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and-->
-<!--                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right-->
-<!--                                    at the coast of the Semantics, a large language ocean.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-<div id="fh5co-gallery" class="fh5co-section-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                <span>Our Memories</span>
-                <h2>Wedding Gallery</h2>
+    <div id="fh5co-wedding-venue-location">
+        <div class="container">
+            <div id="venue-map"
+                 class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+                <section class="section" id="section-3">
+                    <h2>오시는 길</h2>
+                    <h4 id="venue-name">컨벤션 헤리츠</h4>
+                    <h5 id="venue-address">서울 강남구 논현로 662 헤리츠타워</h5>
+                    <div id="map" style="width: 90%; height: 300px; margin:auto"></div>
+                </section>
             </div>
-        </div>
-        <div class="row row-bottom-padded-md">
-            <div class="col-md-12">
-                <ul id="fh5co-gallery-list">
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding1.jpg); ">
-                        <a href="images/wedding1.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding2.jpg); ">
-                        <a href="images/wedding2.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding3.jpg); ">
-                        <a href="images/wedding3.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding4.jpg); ">
-                        <a href="images/wedding4.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding5.jpg); ">
-                        <a href="images/wedding5.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding6.jpg); ">
-                        <a href="images/wedding6.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding7.jpg); ">
-                        <a href="images/wedding7.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding8.jpg); ">
-                        <a href="images/wedding8.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/wedding9.jpg); ">
-                        <a href="images/wedding9.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories1.jpg); ">
-                        <a href="images/memories1.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories2.jpg); ">
-                        <a href="images/memories2.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories3.jpg); ">
-                        <a href="images/memories3.jpg">
-                            <p id="show-more-photos">+ 더보기</p>
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories4.jpg); display: none">
-                        <a href="images/memories4.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories5.jpg); display: none">
-                        <a href="images/memories5.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories6.jpg); display: none">
-                        <a href="images/memories6.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories7.jpg); display: none">
-                        <a href="images/memories7.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories8.jpg); display: none">
-                        <a href="images/memories8.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories9.jpg); display: none">
-                        <a href="images/memories9.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories10.jpg); display: none">
-                        <a href="images/memories10.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories11.jpg); display: none">
-                        <a href="images/memories11.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories12.jpg); display: none">
-                        <a href="images/memories12.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories13.jpg); display: none">
-                        <a href="images/memories13.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories14.jpg); display: none">
-                        <a href="images/memories14.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories15.jpg); display: none">
-                        <a href="images/memories15.jpg">
-                        </a>
-                    </li>
-                    <li class="one-third animate-box" data-animate-effect="fadeIn"
-                        style="background-image: url(images/memories16.jpg); display: none">
-                        <a href="images/memories16.jpg">
-                        </a>
-                    </li>
-                </ul>
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h5>지하철</h5>
+                <hr>
+                <h6>7호선 학동역 3번 출구 도보 60m</h6>
+                <h6>9호선 언주역 3번 출구 도보 500m</h6>
+                <h5>버스</h5>
+                <hr>
+                <h6>간선 147번, 240번, 241번, 401번, 463번</h6>
+                <h6>지선 3412번, 3414번, 4211번, 6411번</h6>
+                <h5>자가용</h5>
+                <hr>
+                <h6>네비게이션 : '컨벤션 헤리츠' 또는 '서울 강남구 논현로 662' 입력</h6>
+                <h6 id="parking-notice">* 주차장 이용 시 10-20분 가량 지연이 있을 수 있습니다.</h6>
+                <h6>(하객 2시간 무료 주차)</h6>
             </div>
         </div>
     </div>
-</div>
 
-<div id="fh5co-wedding-venue-location">
-    <div class="container">
-        <div id="venue-map"
-             class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-            <section class="section" id="section-3">
-                <h2>오시는 길</h2>
-                <div id="map" style="width: 90%; height: 300px; margin:auto"></div>
-            </section>
-        </div>
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h4>컨벤션 헤리츠</h4>
-            <h5 id="venue-address">서울 강남구 논현로 662 헤리츠타워</h5>
-            <h5>지하철</h5>
-            <hr>
-            <h6>7호선 학동역 3번 출구 도보 60m</h6>
-            <h6>9호선 언주역 3번 출구 도보 500m</h6>
-            <h5>버스</h5>
-            <hr>
-            <h6>간선 147번, 240번, 241번, 401번, 463번</h6>
-            <h6>지선 3412번, 3414번, 4211번, 6411번</h6>
-            <h5>자가용</h5>
-            <hr>
-            <h6>네비게이션 : '컨벤션 헤리츠' 또는 '서울 강남구 논현로 662' 입력</h6>
-            <h6 id="parking-notice">* 주차장 이용 시 10-20분 가량 지연이 있을 수 있습니다.</h6>
-            <h6>(하객 2시간 무료 주차)</h6>
-        </div>
-    </div>
-</div>
-
-<div id="fh5co-account">
-    <div class="container">
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-            <h2>축하의 마음 전하기</h2>
-            <div class="row account">
-                <ul>
-                    <li class="account_owner">
-                        <h6 class="account_header">신랑 박용우</h6>
-                    </li>
-                    <li class="account_box">
-                        <h6 class="account_header smaller_h6">국민 697602-01-211274</h6>
-                    </li>
-                    <li class="account_no_copy_li">
-                        <div class="account_header account_no_copy" data-account="69760201211274">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
-                                 class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
-                                <path fill-rule="evenodd"
-                                      d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
-                            </svg>
-                            <div>복사</div>
-                        </div>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="account_owner">
-                        <h6 class="account_header">아버지 박찬익</h6>
-                    </li>
-                    <li class="account_box">
-                        <h6 class="account_header smaller_h6">신한 110-240-690550</h6>
-                    </li>
-                    <li class="account_no_copy_li">
-                        <div class="account_header account_no_copy" data-account="110240690550">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
-                                 class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
-                                <path fill-rule="evenodd"
-                                      d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
-                            </svg>
-                            <div>복사</div>
-                        </div>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="account_owner">
-                        <h6 class="account_header">어머니 추명리</h6>
-                    </li>
-                    <li class="account_box">
-                        <h6 class="account_header smaller_h6">신한 110-430-628300</h6>
-                    </li>
-                    <li class="account_no_copy_li">
-                        <div class="account_header account_no_copy" data-account="110430628300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
-                                 class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
-                                <path fill-rule="evenodd"
-                                      d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
-                            </svg>
-                            <div>복사</div>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="bride_account">
-                    <li class="account_owner">
-                        <h6 class="account_header">신부 김수정</h6>
-                    </li>
-                    <li class="account_box">
-                        <h6 class="account_header smaller_h6">국민 549802-01-401004</h6>
-                    </li>
-                    <li class="account_no_copy_li">
-                        <div class="account_header account_no_copy" data-account="54980201401004">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
-                                 class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
-                                <path fill-rule="evenodd"
-                                      d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
-                            </svg>
-                            <div>복사</div>
-                        </div>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="account_owner">
-                        <h6 class="account_header">아버지 김영석</h6>
-                    </li>
-                    <li class="account_box">
-                        <h6 class="account_header smaller_h6">하나 364-890005-27607</h6>
-                    </li>
-                    <li class="account_no_copy_li">
-                        <div class="account_header account_no_copy" data-account="36489000527607">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
-                                 class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
-                                <path fill-rule="evenodd"
-                                      d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
-                            </svg>
-                            <div>복사</div>
-                        </div>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="account_owner">
-                        <h6 class="account_header">어머니 나영란</h6>
-                    </li>
-                    <li class="account_box">
-                        <h6 class="account_header smaller_h6">국민 549825-96-114158</h6>
-                    </li>
-                    <li class="account_no_copy_li">
-                        <div class="account_header account_no_copy" data-account="54982596114158">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
-                                 class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
-                                <path fill-rule="evenodd"
-                                      d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
-                            </svg>
-                            <div>복사</div>
-                        </div>
-                    </li>
-                </ul>
+    <div id="fh5co-account" class="fh5co-section-gray">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+                <h2>축하의 마음 전하기</h2>
+                <h4 id="groom_side">신랑 측</h4>
+                <div class="row account">
+                    <ul>
+                        <li class="account_owner">
+                            <h6 class="account_header">신랑 박용우</h6>
+                        </li>
+                        <li class="account_box">
+                            <h6 class="account_header smaller_h6">국민 697602-01-211274</h6>
+                        </li>
+                        <li class="account_no_copy_li">
+                            <div class="account_header account_no_copy" data-account="69760201211274">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                     class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
+                                    <path fill-rule="evenodd"
+                                          d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
+                                </svg>
+                                <div>복사</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="account_owner">
+                            <h6 class="account_header">아버지 박찬익</h6>
+                        </li>
+                        <li class="account_box">
+                            <h6 class="account_header smaller_h6">신한 110-240-690550</h6>
+                        </li>
+                        <li class="account_no_copy_li">
+                            <div class="account_header account_no_copy" data-account="110240690550">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                     class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
+                                    <path fill-rule="evenodd"
+                                          d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
+                                </svg>
+                                <div>복사</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="account_owner">
+                            <h6 class="account_header">어머니 추명리</h6>
+                        </li>
+                        <li class="account_box">
+                            <h6 class="account_header smaller_h6">신한 110-430-628300</h6>
+                        </li>
+                        <li class="account_no_copy_li">
+                            <div class="account_header account_no_copy" data-account="110430628300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                     class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
+                                    <path fill-rule="evenodd"
+                                          d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
+                                </svg>
+                                <div>복사</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <h4 id="bride_side">신부 측</h4>
+                <div class="row account">
+                    <ul>
+                        <li class="account_owner">
+                            <h6 class="account_header">신부 김수정</h6>
+                        </li>
+                        <li class="account_box">
+                            <h6 class="account_header smaller_h6">국민 549802-01-401004</h6>
+                        </li>
+                        <li class="account_no_copy_li">
+                            <div class="account_header account_no_copy" data-account="54980201401004">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                     class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
+                                    <path fill-rule="evenodd"
+                                          d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
+                                </svg>
+                                <div>복사</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="account_owner">
+                            <h6 class="account_header">아버지 김영석</h6>
+                        </li>
+                        <li class="account_box">
+                            <h6 class="account_header smaller_h6">하나 364-890005-27607</h6>
+                        </li>
+                        <li class="account_no_copy_li">
+                            <div class="account_header account_no_copy" data-account="36489000527607">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                     class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
+                                    <path fill-rule="evenodd"
+                                          d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
+                                </svg>
+                                <div>복사</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="account_owner">
+                            <h6 class="account_header">어머니 나영란</h6>
+                        </li>
+                        <li class="account_box">
+                            <h6 class="account_header smaller_h6">국민 549825-96-114158</h6>
+                        </li>
+                        <li class="account_no_copy_li">
+                            <div class="account_header account_no_copy" data-account="54982596114158">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                     class="bi bi-copy" viewBox="0 0 16 16" style="margin: 1px 3px 0 0;">
+                                    <path fill-rule="evenodd"
+                                          d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
+                                </svg>
+                                <div>복사</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div id="fh5co-info">
-    <div class="container">
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-            <h2>식사 안내</h2>
-        </div>
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h6 class="lunch-notice">3층 연회장에서</h6>
-            <h6 class="lunch-notice">12시부터 14시까지 식사하실 수 있습니다.</h6>
-            <h6 class="lunch-notice">재입장이 불가하오니 이용에 참고 부탁드립니다.</h6>
-        </div>
-    </div>
-</div>
-
-<div id="fh5co-parking-info">
-    <div class="container">
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-            <h2>주차 안내</h2>
-        </div>
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h6 class="lunch-notice">예식장 건물에 주차하신 경우</h6>
-            <h6 class="lunch-notice">> 2시간 자동 무료 등록</h6>
-            <h6 class="lunch-notice">예식장에서 안내한 외부 주차장 이용 시</h6>
-            <h6 class="lunch-notice">> 예식장 각 층에 비치된 주차도장 이용 시 2시간 무료</h6>
+    <div id="fh5co-info">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+                <h2>식사 안내</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h6 class="lunch-notice">3층 연회장에서 12시부터 14시까지 식사하실 수 있습니다.</h6>
+                <h6 class="lunch-notice">재입장이 불가하오니 이용에 참고 부탁드립니다.</h6>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="toast" style=""></div>
-
-<!-- 각자 발급받은 Client ID 값 넣기 -->
-<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zz6yh4hq5l"></script>
-
-<footer id="fh5co-footer" role="contentinfo">
-    <div class="container">
+    <div id="fh5co-parking-info">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+                <h2>주차 안내</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h6 class="parking-notice parking-case">예식장 건물에 주차하신 경우</h6>
+                <h6 class="parking-notice">-> 2시간 자동 무료 등록</h6>
+                <h6 class="parking-notice parking-case">예식장에서 안내한 외부 주차장에 주차하신 경우</h6>
+                <h6 class="parking-notice">-> 예식장 각 층에 비치된 주차도장 이용 시 2시간 무료</h6>
+            </div>
+        </div>
     </div>
-</footer>
+
+    <div class="toast" style=""></div>
+
+    <!-- 각자 발급받은 Client ID 값 넣기 -->
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zz6yh4hq5l"></script>
+
+    <footer id="fh5co-footer" role="contentinfo">
+        <div class="container">
+        </div>
+    </footer>
 </div>
 
 <div class="gototop js-top">

@@ -103,9 +103,13 @@ h4 {
 
 #venue-address {
     font-size: 12px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
+}
+
+#venue-name {
+    margin-top: 30px;
 }
 
 h5 {
@@ -139,6 +143,15 @@ h6 {
     text-align: center;
 }
 
+.parking-notice {
+    text-align: center;
+}
+
+.parking-case {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 hr {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -159,17 +172,17 @@ hr {
 
 ::-webkit-selection {
     color: #fff;
-    background: #F14E95;
+    background: #86AD80;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #F14E95;
+    background: #86AD80;
 }
 
 ::selection {
     color: #fff;
-    background: #F14E95;
+    background: #86AD80;
 }
 
 .fh5co-nav {
@@ -1270,9 +1283,9 @@ form label {
 
 .heart i {
     font-size: 20px;
-    background: #fff;
+    background: #fafafa;
     padding: 20px;
-    color: #ac2925;
+    color: #ffc0cb;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -2161,6 +2174,7 @@ form label {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -2194,8 +2208,14 @@ li {
     border-left: 1px solid #0b0b0b;
 }
 
-.bride_account {
+#groom_side {
     margin-top: 30px;
+    text-align: left;
+}
+
+#bride_side {
+    display: inherit;
+    text-align: left;
 }
 
 .account_no_copy {
