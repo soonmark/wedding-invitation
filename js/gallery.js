@@ -18,8 +18,22 @@
 				titleSrc: function(item) {
 					return item.el.attr('title');
 				}
+			},
+			callbacks: {
+				open: function() {
+					location.href = location.href.split('#')[0] + "#gal";
+				}
+				,close: function() {
+					if (location.hash) history.go(-1);
+				}
 			}
 		});
+	});
+
+	$(window).on('hashchange',function() {
+		if(location.href.indexOf("#gal")<0) {
+			$.magnificPopup.close();
+		}
 	});
 
 	//계좌 클립보드 복사
