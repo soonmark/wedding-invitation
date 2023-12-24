@@ -108,6 +108,21 @@
             $('.trans-account-title').text(i18next.t("account-title"));
             $('.trans-groom-side').text(i18next.t("groom-side"));
             $('.trans-bride-side').text(i18next.t("bride-side"));
+            $('.trans-groom-full-name').text(i18next.t("groom-full-name"));
+            $('.trans-groom-dad-full-name').text(i18next.t("groom-dad-full-name"));
+            $('.trans-groom-mom-full-name').text(i18next.t("groom-mom-full-name"));
+            $('.trans-bride-full-name').text(i18next.t("bride-full-name"));
+            $('.trans-bride-dad-full-name').text(i18next.t("bride-dad-full-name"));
+            $('.trans-bride-mom-full-name').text(i18next.t("bride-mom-full-name"));
+            $('.trans-lunch-notice').text(i18next.t("lunch-notice"));
+            $('.trans-lunch-notice-desc-1').text(i18next.t("lunch-notice-desc-1"));
+            $('.trans-lunch-notice-desc-2').text(i18next.t("lunch-notice-desc-2"));
+            $('.trans-parking-notice').text(i18next.t("parking-notice"));
+            $('.trans-parking-notice-desc-1').text(i18next.t("parking-notice-desc-1"));
+            $('.trans-parking-notice-desc-2').text(i18next.t("parking-notice-desc-2"));
+            $('.trans-parking-notice-desc-3').text(i18next.t("parking-notice-desc-3"));
+            $('.trans-parking-notice-desc-4').text(i18next.t("parking-notice-desc-4"));
+            $('.trans-footer').text(i18next.t("footer"));
         }
 
         i18next.on("languageChanged", () => {
@@ -423,7 +438,7 @@
                 <div class="row account">
                     <ul>
                         <li class="account_owner">
-                            <h6 class="account_header">박용우 국민 697602-01-211274</h6>
+                            <h6 class="account_header trans-groom-full-name">박용우 국민 697602-01-211274</h6>
                         </li>
                         <li class="account_no_copy_li">
                             <div class="account_header account_no_copy" data-account="69760201211274">
@@ -438,7 +453,7 @@
                     </ul>
                     <ul>
                         <li class="account_owner">
-                            <h6 class="account_header">박찬익 신한 110-240-690550</h6>
+                            <h6 class="account_header trans-groom-dad-full-name">박찬익 신한 110-240-690550</h6>
                         </li>
                         <li class="account_no_copy_li">
                             <div class="account_header account_no_copy" data-account="110240690550">
@@ -453,7 +468,7 @@
                     </ul>
                     <ul>
                         <li class="account_owner">
-                            <h6 class="account_header">추명리 신한 110-430-628300</h6>
+                            <h6 class="account_header trans-groom-mom-full-name">추명리 신한 110-430-628300</h6>
                         </li>
                         <li class="account_no_copy_li">
                             <div class="account_header account_no_copy" data-account="110430628300">
@@ -472,7 +487,7 @@
                 <div class="row account">
                     <ul>
                         <li class="account_owner">
-                            <h6 class="account_header">김수정 국민 549802-01-401004</h6>
+                            <h6 class="account_header trans-bride-full-name">김수정 국민 549802-01-401004</h6>
                         </li>
                         <li class="account_no_copy_li">
                             <div class="account_header account_no_copy" data-account="54980201401004">
@@ -487,7 +502,7 @@
                     </ul>
                     <ul>
                         <li class="account_owner">
-                            <h6 class="account_header">김영석 하나 364-890005-27607</h6>
+                            <h6 class="account_header trans-bride-dad-full-name">김영석 하나 364-890005-27607</h6>
                         </li>
                         <li class="account_no_copy_li">
                             <div class="account_header account_no_copy" data-account="36489000527607">
@@ -502,7 +517,7 @@
                     </ul>
                     <ul>
                         <li class="account_owner">
-                            <h6 class="account_header">나영란 국민 549825-96-114158</h6>
+                            <h6 class="account_header trans-bride-mom-full-name">나영란 국민 549825-96-114158</h6>
                         </li>
                         <li class="account_no_copy_li">
                             <div class="account_header account_no_copy" data-account="54982596114158">
@@ -523,11 +538,11 @@
     <div id="fh5co-info">
         <div class="container">
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-                <h2>식사 안내</h2>
+                <h2 class="trans-lunch-notice">식사 안내</h2>
             </div>
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h6 class="lunch-notice">3층 연회장에서 12시부터 14시까지 식사하실 수 있습니다.</h6>
-                <h6 class="lunch-notice">재입장이 불가하오니 이용에 참고 부탁드립니다.</h6>
+                <h6 class="lunch-notice trans-lunch-notice-desc-1">3층 연회장에서 12시부터 14시까지 식사하실 수 있습니다.</h6>
+                <h6 class="lunch-notice trans-lunch-notice-desc-2">재입장이 불가하오니 이용에 참고 부탁드립니다.</h6>
             </div>
         </div>
     </div>
@@ -535,13 +550,13 @@
     <div id="fh5co-parking-info">
         <div class="container">
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-                <h2>주차 안내</h2>
+                <h2 class="trans-parking-notice">주차 안내</h2>
             </div>
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h6 class="parking-notice parking-case">예식장 건물에 주차하신 경우</h6>
-                <h6 class="parking-notice">-> 2시간 자동 무료 등록</h6>
-                <h6 class="parking-notice parking-case">예식장에서 안내한 외부 주차장에 주차하신 경우</h6>
-                <h6 class="parking-notice">-> 예식장 각 층에 비치된 주차도장 이용 시 2시간 무료</h6>
+                <h6 class="parking-notice parking-case trans-parking-notice-desc-1">예식장 건물에 주차하신 경우</h6>
+                <h6 class="parking-notice trans-parking-notice-desc-2">-> 2시간 자동 무료 등록</h6>
+                <h6 class="parking-notice parking-case trans-parking-notice-desc-3">예식장에서 안내한 외부 주차장에 주차하신 경우</h6>
+                <h6 class="parking-notice trans-parking-notice-desc-4">-> 예식장 각 층에 비치된 주차도장 이용 시 2시간 무료</h6>
             </div>
         </div>
     </div>
@@ -553,7 +568,7 @@
 
     <footer id="fh5co-footer" role="contentinfo" style="background: rgba(212, 229, 185, 0.25)">
         <div class="container">
-            <p style="font-size: 15px; text-align: center; margin-top: 25px; color: #3b3b3b;">감사합니다 ♥</p>
+            <p class="trans-footer" style="font-size: 15px; text-align: center; margin-top: 25px; color: #3b3b3b;">감사합니다 ♥</p>
         </div>
     </footer>
 </div>
