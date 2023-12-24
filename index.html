@@ -603,22 +603,18 @@
 <script src="js/main.js"></script>
 
 <script>
-    var weddingDay = new Date(2024, 4, 6, 12, 30, 0, 0);	// 2024-04-06 12시 30분
+    var weddingDay = new Date('2024-04-06T12:30:00.000Z');	// 2024-04-06 12시 30분 + timezone 8시간
 
     // default example
     simplyCountdown('.simply-countdown-one', {
         year: weddingDay.getFullYear(),
         month: weddingDay.getMonth() + 1,
-        day: weddingDay.getDate()
+        day: weddingDay.getDate(),
+        hours: weddingDay.getHours(),
+        minutes: weddingDay.getMinutes(),
+        seconds: weddingDay.getSeconds()
     });
 
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: weddingDay.getFullYear(),
-        month: weddingDay.getMonth() + 1,
-        day: weddingDay.getDate(),
-        enableUtc: false
-    });
 </script>
 
 <script id="code">

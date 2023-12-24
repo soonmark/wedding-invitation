@@ -109,18 +109,18 @@
     };
 
     /**
-     * simplyCountdown, create and display the coundtown.
+     * simplyCountdown, create and display the countdown.
      * @param elt
      * @param args (parameters)
      */
     simplyCountdown = function (elt, args) {
         var parameters = extend({
-                year: 2015,
-                month: 6,
-                day: 28,
-                hours: 0,
-                minutes: 0,
-                seconds: 0,
+                // year: 2024,
+                // month: 4,
+                // day: 6,
+                // hours: 12,
+                // minutes: 30,
+                // seconds: 0,
                 words: {
                     days: 'day',
                     hours: 'hour',
