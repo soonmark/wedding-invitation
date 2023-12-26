@@ -153,6 +153,13 @@ h5 {
 
 .small-margin-h5 {
     margin-top: 4px;
+    font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+    .small-margin-h5 {
+        margin-top: 4px;
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 350px) {
     .small-margin-h5 {
@@ -905,7 +912,7 @@ hr {
     padding: 0;
     margin: 0 0 10px 1%;
     list-style: none;
-    min-height: 120px;
+    min-height: 200px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -917,7 +924,25 @@ hr {
     -ms-border-radius: 7px;
     border-radius: 7px;
 }
-
+@media screen and (max-width: 991px) {
+    #fh5co-gallery-list li {
+        display: block;
+        padding: 0;
+        margin: 0 0 10px 1%;
+        list-style: none;
+        min-height: 120px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        clear: left;
+        position: relative;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        border-radius: 7px;
+    }
+}
 @media screen and (max-width: 480px) {
     #fh5co-gallery-list li {
         margin-left: 2px;
@@ -925,11 +950,20 @@ hr {
 }
 
 #fh5co-gallery-list li a {
-    min-height: 120px;
+    min-height: 200px;
     padding: 1em;
     position: relative;
     width: 100%;
     display: block;
+}
+@media screen and (max-width: 991px) {
+    #fh5co-gallery-list li a {
+        min-height: 120px;
+        padding: 1em;
+        position: relative;
+        width: 100%;
+        display: block;
+    }
 }
 
 #fh5co-gallery-list li a:before {
@@ -2414,13 +2448,50 @@ li {
 }
 
 #show-more-photos {
-    margin-top: 40px;
+    font-family: SeoulNamsan, serif;
+    margin-top: 75px;
     text-align: center;
-    font-size: 13px;
-    padding-top: 3px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 10px;
     border: 1px solid #e1e1e1;
     border-radius: 4px;
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 991px) {
+    #show-more-photos {
+        font-family: SeoulNamsan, serif;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+@media screen and (max-width: 350px) {
+    #show-more-photos {
+        font-family: SeoulNamsan, serif;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 13px;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
 }
 
 #subway-icon {
@@ -2459,5 +2530,13 @@ li {
     .navi-notice {
         padding-left: 73px;
         text-indent: -73px;
+    }
+}
+
+.intro-desc {
+}
+@media screen and (max-width: 991px) {
+    .intro-desc {
+        margin-top: 146px;
     }
 }
