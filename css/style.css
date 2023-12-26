@@ -1576,6 +1576,11 @@ form label {
     margin-bottom: 30px;
 }
 
+#main-title-invited {
+    color: #0b0b0b;
+    font-size: 25px;
+}
+
 #fh5co-testimonial .wrap-testimony {
     position: relative;
 }
