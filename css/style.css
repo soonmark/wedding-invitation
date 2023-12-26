@@ -2552,6 +2552,12 @@ li {
     }
 }
 
+#diamond-fill {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 #invited-title {
+    margin-top: 20px;
     margin-bottom: 30px;
 }
