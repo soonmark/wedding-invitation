@@ -1542,10 +1542,7 @@ form label {
     margin-bottom: 7px;
     margin-top: 10px;
     line-height: 1.5;
-    /*font-weight: bold;*/
-    /*color: #D4E5B9;*/
     color: #86AD80;
-    /*color: #5E7A58;*/
     font-family: 'SeoulHangang', 'MaruBuri', "Sacramento", Arial, serif;
 }
 
@@ -2551,6 +2548,10 @@ li {
 }
 @media screen and (max-width: 991px) {
     .intro-desc {
-        margin-top: 146px;
+        padding-top: 146px;
     }
+}
+
+#invited-title {
+    margin-bottom: 30px;
 }
