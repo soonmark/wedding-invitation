@@ -224,12 +224,12 @@ h6 {
 }
 
 .parking-notice-margin-bottom {
-    margin-bottom: inherit;
+    margin-bottom: 40px;
 }
 
 .parking-case {
     text-align: center;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
 }
 
 hr {
