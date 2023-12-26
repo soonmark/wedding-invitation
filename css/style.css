@@ -102,14 +102,43 @@ h4 {
 }
 
 #venue-address {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
 }
+@media screen and (max-width: 400px) {
+    #venue-address {
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px) {
+    #venue-address {
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
 
 #venue-name {
     margin-top: 26px;
+    font-size: 17px;
+}
+@media screen and (max-width: 400px) {
+    #venue-name {
+        margin-top: 26px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 350px) {
+    #venue-name {
+        margin-top: 26px;
+        font-size: 15px;
+    }
 }
 
 h5 {
@@ -149,7 +178,13 @@ h6 {
 
 .lunch-notice {
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
+}
+@media screen and (max-width: 400px) {
+    .lunch-notice {
+        text-align: center;
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 350px) {
     .lunch-notice {
@@ -160,13 +195,23 @@ h6 {
 
 .parking-notice {
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
+}
+@media screen and (max-width: 400px) {
+    .parking-notice {
+        text-align: center;
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 350px) {
     .parking-notice {
         text-align: center;
         font-size: 12px;
     }
+}
+
+.parking-notice-margin-bottom {
+    margin-bottom: inherit;
 }
 
 .parking-case {
@@ -189,7 +234,12 @@ hr {
 }
 
 .bride-groom-desc-p2 {
-    font-size: 12px;
+    font-size: 13px;
+}
+@media screen and (max-width: 350px) {
+    .bride-groom-desc-p2 {
+        font-size: 12px;
+    }
 }
 
 ::-webkit-selection {
@@ -2217,7 +2267,14 @@ ul {
 .account_header {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 13px;
+    font-size: 14px;
+}
+@media screen and (max-width: 400px) {
+    .account_header {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 350px) {
     .account_header {
@@ -2243,21 +2300,70 @@ li {
 #groom_side {
     margin-top: 30px;
     text-align: left;
+    font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+    #groom_side {
+        margin-top: 30px;
+        text-align: left;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 350px) {
+    #groom_side {
+        margin-top: 30px;
+        text-align: left;
+        font-size: 14px;
+    }
 }
 
 #bride_side {
     display: inherit;
     text-align: left;
+    font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+    #bride_side {
+        display: inherit;
+        text-align: left;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 350px) {
+    #bride_side {
+        display: inherit;
+        text-align: left;
+        font-size: 14px;
+    }
 }
 
 .account_no_copy {
     padding: 5px;
-    /*background: #FAE8B0;*/
     border: 1px solid #e1e1e1;
     border-radius: 4px;
-    font-size: 10px;
+    font-size: 12px;
     display: flex;
-    width: 45px;
+    width: 48px;
+}
+@media screen and (max-width: 400px) {
+    .account_no_copy {
+        padding: 5px;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        font-size: 11px;
+        display: flex;
+        width: 45px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .account_no_copy {
+        padding: 5px;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        font-size: 10px;
+        display: flex;
+        width: 45px;
+    }
 }
 
 .account_header.account_no_copy {
@@ -2340,6 +2446,18 @@ li {
 }
 
 .navi-notice {
-    padding-left: 73px;
-    text-indent: -73px;
+    padding-left: 87px;
+    text-indent: -87px;
+}
+@media screen and (max-width: 400px) {
+    .navi-notice {
+        padding-left: 80px;
+        text-indent: -80px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .navi-notice {
+        padding-left: 73px;
+        text-indent: -73px;
+    }
 }

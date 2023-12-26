@@ -503,11 +503,31 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 14px;
+  font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+  h5, .h5 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  h5, .h5 {
+    font-size: 14px;
+  }
 }
 
 h6, .h6 {
-  font-size: 12px;
+  font-size: 14px;
+}
+@media screen and (max-width: 400px) {
+  h6, .h6 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  h6, .h6 {
+    font-size: 12px;
+  }
 }
 
 p {
