@@ -75,6 +75,11 @@
         });
 
         function updateContents() {
+            if (i18next.language === 'en') {
+                $('#fh5co-account').hide();
+            } else {
+                $('#fh5co-account').show();
+            }
             $('.trans-title').text(i18next.t("title"));
             $('.trans-wedding-date').text(i18next.t("wedding-date"));
             $('.trans-wedding-venue').text(i18next.t("wedding-venue"));
@@ -101,7 +106,7 @@
             $('.trans-bus').html(i18next.t("bus"));
             $('.trans-bus-case-1').text(i18next.t("bus-case-1"));
             $('.trans-bus-case-2').text(i18next.t("bus-case-2"));
-            $('.car').html(i18next.t("car"));
+            $('.trans-car').html(i18next.t("car"));
             $('.trans-car-case-1').text(i18next.t("car-case-1"));
             $('.trans-car-case-2').text(i18next.t("car-case-2"));
             $('.trans-car-case-2-1').text(i18next.t("car-case-2-1"));
