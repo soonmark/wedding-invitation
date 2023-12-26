@@ -93,12 +93,12 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #000;
     font-family: 'SeoulHangang', 'MaruBuri', "Work Sans", Arial, sans-serif;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 12px 0;
 }
 
 h4 {
     font-size: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #venue-address {
@@ -109,12 +109,12 @@ h4 {
 }
 
 #venue-name {
-    margin-top: 30px;
+    margin-top: 26px;
 }
 
 h5 {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 27px;
+    margin-bottom: 4px;
     text-align: left;
 }
 
@@ -123,7 +123,7 @@ h5 {
 }
 
 .small-margin-h5 {
-    margin-top: 10px;
+    margin-top: 4px;
 }
 
 .d-day-h5 {
@@ -136,7 +136,9 @@ h6 {
 }
 
 #parking-notice {
-    margin-bottom: 7px;
+    margin-bottom: 0px;
+    padding-left: 9px;
+    text-indent: -9px;
 }
 
 .lunch-notice {
@@ -149,11 +151,11 @@ h6 {
 
 .parking-case {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 hr {
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 10px;
 }
 
@@ -1179,7 +1181,7 @@ form label {
 .simply-countdown {
     /* The countdown */
     margin-bottom: 2em;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 .simply-countdown > .simply-section {
@@ -1427,7 +1429,7 @@ form label {
 
 .fh5co-heading h2 {
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     margin-top: 10px;
     line-height: 1.5;
     /*font-weight: bold;*/
@@ -2307,4 +2309,9 @@ li {
 
 #wedding-gallery {
     margin-top: 0px;
+}
+
+.navi-notice {
+    padding-left: 73px;
+    text-indent: -73px;
 }
