@@ -125,6 +125,12 @@ h5 {
 .small-margin-h5 {
     margin-top: 4px;
 }
+@media screen and (max-width: 350px) {
+    .small-margin-h5 {
+        margin-top: 4px;
+        font-size: 13px;
+    }
+}
 
 .d-day-h5 {
     color: #666666;
@@ -143,10 +149,24 @@ h6 {
 
 .lunch-notice {
     text-align: center;
+    font-size: 13px;
+}
+@media screen and (max-width: 350px) {
+    .lunch-notice {
+        text-align: center;
+        font-size: 12px;
+    }
 }
 
 .parking-notice {
     text-align: center;
+    font-size: 13px;
+}
+@media screen and (max-width: 350px) {
+    .parking-notice {
+        text-align: center;
+        font-size: 12px;
+    }
 }
 
 .parking-case {
@@ -2197,6 +2217,14 @@ ul {
 .account_header {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 13px;
+}
+@media screen and (max-width: 350px) {
+    .account_header {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
 }
 
 li {
