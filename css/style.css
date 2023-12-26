@@ -427,9 +427,14 @@ hr {
 }
 
 .top-cover-image {
-    /*clip-path: inset(0 0 0 calc(50px));*/
     max-width: 100%;
-    max-height: 100%;
+    max-height: 600px;
+}
+@media screen and (max-width: 768px) {
+    .top-cover-image {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 .fh5co-cover {
