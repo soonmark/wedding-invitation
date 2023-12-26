@@ -2459,7 +2459,7 @@ li {
     border: 1px solid #e1e1e1;
     border-radius: 4px;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 @media screen and (max-width: 991px) {
     #show-more-photos {
@@ -2474,7 +2474,7 @@ li {
         border: 1px solid #e1e1e1;
         border-radius: 4px;
         color: #ffffff;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.4);
     }
 }
 @media screen and (max-width: 350px) {
@@ -2490,7 +2490,7 @@ li {
         border: 1px solid #e1e1e1;
         border-radius: 4px;
         color: #ffffff;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.4);
     }
 }
 
