@@ -283,7 +283,7 @@ img.mfp-img {
   cursor: auto; }
 
 .mfp-title {
-  text-align: left;
+  text-align: center;
   line-height: 18px;
   color: #f3f3f3;
   word-wrap: break-word;
