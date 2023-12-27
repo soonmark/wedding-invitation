@@ -2523,20 +2523,37 @@ li {
     transform: translateY(20%);
 }
 
-.navi-notice {
+.navi-notice-first {
     padding-left: 87px;
     text-indent: -87px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 400px) {
+    .navi-notice-first {
+        padding-left: 80px;
+        text-indent: -80px;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .navi-notice-first {
+        padding-left: 73px;
+        text-indent: -73px;
+        margin-bottom: 0px;
+    }
+}
+
+.navi-notice {
+    padding-left: 87px;
 }
 @media screen and (max-width: 400px) {
     .navi-notice {
         padding-left: 80px;
-        text-indent: -80px;
     }
 }
 @media screen and (max-width: 350px) {
     .navi-notice {
         padding-left: 73px;
-        text-indent: -73px;
     }
 }
 
