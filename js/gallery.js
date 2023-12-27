@@ -18,7 +18,7 @@
 					'<div class="mfp-close"></div>'+
 					'<div class="mfp-img"></div>'+
 					'<div class="mfp-bottom-bar">'+
-					'<div class="mfp-title" style="font-size: 20px; margin-top: 5px;"></div>'+
+					'<div class="mfp-title"></div>'+
 					'<div class="mfp-counter"></div>'+
 					'</div>'+
 					'</div>',
