@@ -11,9 +11,17 @@
 			gallery: {
 				enabled: true,
 				navigateByImgClick: true,
-				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+				preload: [0,3] // Will preload 0 - before current, and 1 after the current image
 			},
 			image: {
+				markup: '<div class="mfp-figure">'+
+					'<div class="mfp-close"></div>'+
+					'<div class="mfp-img"></div>'+
+					'<div class="mfp-bottom-bar">'+
+					'<div class="mfp-title" style="font-size: 20px; margin-top: 5px;"></div>'+
+					'<div class="mfp-counter"></div>'+
+					'</div>'+
+					'</div>',
 				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
 				titleSrc: function(item) {
 					return item.el.attr('title');
@@ -42,12 +50,9 @@
 		var account = $(this).attr('data-account');
 		copyToClipboard(account);
 
-		console.log("asd");
-
 		if (varUA.indexOf('android') > -1) {
 			return false;
 		} else {
-			console.log("asdasd");
 			toastPopup('복사되었습니다.', 1500);
 		}
 	});
