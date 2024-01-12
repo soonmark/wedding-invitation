@@ -123,6 +123,11 @@
             $('.trans-bride-full-name').text(i18next.t("bride-full-name"));
             $('.trans-bride-dad-full-name').text(i18next.t("bride-dad-full-name"));
             $('.trans-bride-mom-full-name').text(i18next.t("bride-mom-full-name"));
+            $('.trans-d-day-explanations-1').text(i18next.t("d-day-explanations-1"));
+            $('.trans-d-day-explanations-2').text(i18next.t("d-day-explanations-2"));
+            if ( $('#d-day-number').text() < 2) {
+                $('.trans-d-day-explanations-2').text(i18next.t("d-day-explanations-2-2"));
+            }
             $('.trans-lunch-notice').text(i18next.t("lunch-notice"));
             $('.trans-lunch-notice-desc-1').text(i18next.t("lunch-notice-desc-1"));
             $('.trans-lunch-notice-desc-2').text(i18next.t("lunch-notice-desc-2"));
@@ -227,6 +232,9 @@
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                     <h5 class="center-align-h5 d-day-h5"><strong>D - Day</strong></h5>
                     <div class="simply-countdown simply-countdown-one"></div>
+                    <h5 class="center-align-h5 d-day-h5 trans-d-day-explanations-1">박용우 ❤ 김수정 님의 결혼식이</h5>
+                    <h5 id="d-day-number" class="center-align-h5 d-day-explanations"></h5>
+                    <h5 class="center-align-h5 d-day-explanations trans-d-day-explanations-2">일 남았습니다.</h5>
                 </div>
             </div>
         </div>
@@ -565,6 +573,17 @@
         seconds: weddingDay.getSeconds()
     });
 
+    var today0hr = new Date();
+    var weddingDay0hr = new Date('2024-04-06');
+    today0hr.setHours(0, 0, 0, 0);
+    weddingDay0hr.setHours(0, 0, 0, 0);
+    var timeGap = weddingDay0hr.getTime() - today0hr.getTime();
+    var oneDay = 24 * 60 * 60 * 1000;
+    var dayGap = Math.floor(timeGap / oneDay);
+    if (dayGap < 0) {
+        dayGap = 0;
+    }
+    $('#d-day-number').text(dayGap);
 </script>
 
 <script id="code">

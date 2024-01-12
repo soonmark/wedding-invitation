@@ -178,6 +178,12 @@ h5 {
     color: #666666;
     margin-bottom: 0px;
 }
+.d-day-explanations {
+    color: #666666;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    display: inline-block;
+}
 
 h6 {
     text-align: left;
